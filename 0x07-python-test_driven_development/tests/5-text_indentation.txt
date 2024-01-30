@@ -79,4 +79,4 @@ New lines within a string are printed as normal.
 
     >>> text_indentation(None)
     Traceback (most recent call last):
-    TypeError: text must be a string>
+	TypeError: text must be a string>

@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Module for printing a square with a given size"""
 
+
 def print_square(size):
     """
     Prints a square
@@ -22,6 +23,8 @@ def print_square(size):
             print("#", end="")
         if i != size:
             print()
+
+
 if __name__ == "__main__":
     import doctest
     doctest.testfile("tests/4-print_square.txt")
